@@ -1,0 +1,36 @@
+# Rust build artifacts
+/target/
+Cargo.lock
+
+# Archivos compilados (binarios y librerías)
+*.exe
+*.out
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.lib
+*.pdb
+
+# Archivos de respaldo y temporales
+*.tmp
+*.swp
+*.swo
+*~
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Archivos de IDEs y editores
+.vscode/
+.idea/
+*.sublime-*
+
+# Carpeta de builds manuales (por requisito)
+build/
+
+# Archivos innecesarios
+*.log
